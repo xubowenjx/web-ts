@@ -12,6 +12,7 @@
     "core-js": "^2.6.5",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
+    "muse-ui": "^3.0.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-i18n": "^8.0.0",

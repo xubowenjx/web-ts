@@ -1,14 +1,14 @@
 module.exports = {
   pluginOptions: {
     i18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
-      localeDir: 'locales',
+      locale: "zh",
+      fallbackLocale: "zh",
+      localeDir: "locales",
       enableInSFC: false
     }
   },
 
-  publicPath: '/vuer',
+  publicPath: "/vuer",
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
@@ -16,4 +16,4 @@ module.exports = {
   parallel: undefined,
   css: undefined,
   lintOnSave: undefined
-}
+};

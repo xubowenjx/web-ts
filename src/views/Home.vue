@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld :msg="$t('message')"/>
+    <HelloWorld :msg="$t(key)"/>
   </div>
 </template>
 
@@ -14,5 +13,11 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
     HelloWorld
   }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  data() {
+    return {
+      key: "message"
+    };
+  }
+}
 </script>
