@@ -9,6 +9,7 @@
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
+    "compression-webpack-plugin": "^3.0.0",
     "core-js": "^2.6.5",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
