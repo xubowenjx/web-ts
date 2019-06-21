@@ -1,12 +1,12 @@
 <template>
   <div style="padding-top:20px;">
     <mu-card class="card" v-for="(item,index) in tags" :key="index">
-      <mu-card-header :title="item.title" sub-title="sub title">
-        <mu-avatar slot="avatar">
-          <img :src="item.icon">
-        </mu-avatar>
-      </mu-card-header>
-      <mu-card-text>{{item.url}}</mu-card-text>
+      <div style="text-align:center;padding-top:12px;">
+        <img height="36" width="36" :src="item.icon">
+      </div>
+      <mu-card-text>
+        <a class="link" :href="item.url" target="_blank">{{item.title}}</a>
+      </mu-card-text>
     </mu-card>
   </div>
 </template>
@@ -35,8 +35,11 @@ export default class tasg extends Vue {
 }
 .card {
   display: inline-block;
-  max-width: 375px;
-  background: linear-gradient(to right, rgb(116, 235, 213), rgb(172, 182, 229));
+  max-width: 275px;
+  background: rgb(34, 193, 195);
   color: #fff;
+  .link {
+    color: rgb(127, 0, 255);
+  }
 }
 </style>

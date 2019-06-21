@@ -88,7 +88,7 @@ export default Vue.extend({
   transition: left 0.45s cubic-bezier(0.23, 1, 0.32, 1);
   color: #fff;
   background: linear-gradient(
-    60deg,
+    to right,
     #833ab4,
     #fd1d1d,
     #fcb045
